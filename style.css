@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: "Times New Roman", Times, serif; */
+}
+.navbar-brand img{
+    width: 8em;
+}
+.swiper1{
+    width: 100%;
+    height: 25rem;
+}
+.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide img{
+    height: 25em;
+    width: 100%;
+}
+.isevent{    
+    width: 100%;
+    padding: 2rem 5rem;
+    display: grid;
+    grid-template-areas:"main-event-item1 event-item event-item event-item";
+
+}
+.main-event-item1{
+    text-align: center;
+    border-right: 0.1rem solid black;
+    padding: 0 1rem 0 0;
+}
+.main-event-heading{
+    font-size: 2.1rem;
+    color: rgb(0,0,128);
+}
+.event-item{
+    display: flex;
+    flex-direction: row;
+    padding: 0 0rem 0 1rem;
+}
+.event-icon{
+    padding: 0 1rem;
+    color: rgb(0, 57, 170);
+}
+.event-heading{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(41, 41, 168);
+}
+.fa-calendar{
+    font-size: 3vw;
+}
+.swiper2{
+    width: 100%;
+    height: 15rem;
+    padding: 2em 5rem;
+}
+.s2{
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: rgb(0, 89, 255);
+    color: rgba(255, 255, 255, 0.904);
+}
+.s22{
+    padding: 2%;
+}
+footer{
+    background-image: url(./images/b58e21f4d7ca91d0a577f00de8326762.jpg);
+    background-size: 100% 100%;
+    color: white;
+
+}
+.footinfo{
+    padding: 2rem 5rem 0rem 5rem;
+
+    display: grid;
+    grid-template-areas: 'gr1 gr2 gr3';
+}
+/* .gr1 p{
+    text-align: left;
+} */
+.foottm{
+    color: white;
+    background-color: rgba(0, 106, 236, 0.7);
+    text-align: center;
+    padding: 0.4rem 0rem;
+}
+.foottm a{
+    color: rgba(255, 255, 255, 0.701);
+}
+.ratings{
+    background-color: rgb(198, 198, 198);
+    display: grid;
+    grid-template-areas: "box box box box";
+    padding: 3rem 5rem;
+}
+.box{
+
+}
+.b2{
+    font-size: 1.8vw;
+}
+.accordion{
+    padding: 1rem 5rem;
+    color: rgb(0, 89, 255);
+}
+.accordion-button{
+    color: rgb(0, 89, 255);
+}
+.accordion-body{
+    color: rgb(0, 89, 255);
+}
+.faq{
+    text-align: center;
+    color: rgb(0, 89, 255);
+    font-size: 1.8rem;
+    padding-top: 2vw;
+}
